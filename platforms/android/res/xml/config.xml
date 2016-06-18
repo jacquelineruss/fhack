@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.gorkamu.fhack" version="1.1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-intent href="market:*" />
+    <icon height="96" src="res/icons/android-icon-96-xhdpi.png" width="96" />
+    <icon height="72" src="res/icons/android-icon-72-hdpi.png" width="72" />
+    <icon height="48" src="res/icons/android-icon-48-mdpi.png" width="48" />
+    <icon height="36" src="res/icons/android-icon-36-ldpi.png" width="36" />
+    <splash density="land-hdpi" src="res/screen/android/android-splash-land-hdpi.png" />
+    <splash density="land-xhdpi" src="res/screen/android/android-splash-land-xhdpi.png" />
+    <splash density="land-mdpi" src="res/screen/android/android-splash-land-mdpi.png" />
+    <splash density="land-ldpi" src="res/screen/android/android-splash-land-ldpi.png" />
+    <splash density="port-hdpi" src="res/screen/android/android-splash-port-hdpi.png" />
+    <splash density="port-xhdpi" src="res/screen/android/android-splash-port-xhdpi.png" />
+    <splash density="port-mdpi" src="res/screen/android/android-splash-port-mdpi.png" />
+    <splash density="port-ldpi" src="res/screen/android/android-splash-port-ldpi.png" />
+    <name>fHack</name>
+    <description>
+        This is an emulation app that emulates a fake facebook account attack, obviously this it's fake. 
+        The developer has no responsibility for any use that may be given to this application and everything about facebook attack.
+        Esta es una aplicación de emulación que emula un falso ataque de fuerza bruta contra una cuenta de Facebook, obviamente, esto es falso.
+        El desarrollador no tiene ninguna responsabilidad por cualquier mal uso que pueda darse a esta aplicación ya que es simplemente una emulación.
+    </description>
+    <author email="gorka1802@gmail.com" href="http://gorkamu.com/">
+        Gorka Muñoz
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="4000" />
+</widget>
